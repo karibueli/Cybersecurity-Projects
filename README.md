@@ -80,4 +80,6 @@ Below is another ***Scheduled Rule*** to pull ***SecurityEvent*** for new proces
 
 ![image](https://github.com/user-attachments/assets/ccbfa434-bffd-4224-a599-e7c19fae98d7)
 
+2. ***Near-Real-Time (NRT)*** > run continuously and shall provide "up-to-the-minute" threat detection, there is a limit of 50 NRT rules per workspace.
 
+![image](https://github.com/user-attachments/assets/9505386d-c096-491b-bb5d-ee25aa9a1724)
