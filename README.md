@@ -13,3 +13,17 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 3. Create Log Analytics Workspace.
 4. Create/Signup for an account on ***pulsedive.com***
 5. Data connectors - ingest data from ***pulsedive.com*** API
+
+## **Typical Data Sources for a SIEM**
+
+**APPS**:  SAP, Service-NOW, Workday.
+
+**Network** : Azure Firewall, NSG, WAF
+
+**OS**: Windows, Linux, MAC OS
+
+**Platform**: EntraID, Azure Activity, S3 Bucket(AWS)
+
+**Security**: Defender (for Cloud, Endpoint,) Purview
+
+***NOTE*** In this Demo Project we will ingest Threat Intel data from *pulsedive.com* (free) via our Data connector into our MS Sentinel Workspace.
