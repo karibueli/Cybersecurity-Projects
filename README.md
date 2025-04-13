@@ -27,3 +27,18 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 **Security**: Defender (for Cloud, Endpoint,) Purview
 
 ***NOTE*** In this Demo Project we will ingest Threat Intel data from *pulsedive.com* (free) via our Data connector into our MS Sentinel Workspace.
+
+***Step 1***. Go to your MS Sentinel ==DEMOLA==  click ==Data connectors== option and ==filter Data Type to Threat Intelligence== then Select ==Threat Intelligence - TAXII== as Screen shot below.
+
+![image](https://github.com/user-attachments/assets/30b07acd-f150-471d-9c18-2e6983d54ae8)
+
+Then Open Connector Page and configure details acquired from ***pulsedive.com*** as next two screenshot shows.
+
+![Pulsedive Account](https://github.com/user-attachments/assets/ae2f36b9-805a-4fdc-9e07-77dce79feafd)
+
+
+![Threat Intel - Taxii Sentinel Setup](https://github.com/user-attachments/assets/01321b06-3189-4e2d-b4ce-22c607f75fcb)
+
+
+
+
