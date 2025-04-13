@@ -4,6 +4,9 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 
 # Microsoft Sentinel Architecture
 
+![MS Sentinel Architecture](https://github.com/user-attachments/assets/374542f7-e72c-4a05-870c-2c781bb8acf7)
+***Source:Microsoft.com***
+
 ### Tasks:
 1. Create/Signup Sentinel subscription
 2. Create resource group
