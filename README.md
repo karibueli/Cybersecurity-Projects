@@ -76,4 +76,8 @@ Below is final configuration of ***Scheduled rule*** created and enabled to sear
 
 ![Schedulled Rule Details](https://github.com/user-attachments/assets/4595c8b2-dff3-4362-a02c-7b4f0b8c086c)
 
+Below is another ***Scheduled Rule*** to pull ***SecurityEvent*** for new process initiated with ***EventID 4688** This rule pulls All events thats hows a new process has been initiated.
+
+![image](https://github.com/user-attachments/assets/ccbfa434-bffd-4224-a599-e7c19fae98d7)
+
 
