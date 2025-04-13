@@ -32,13 +32,17 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 
 ![image](https://github.com/user-attachments/assets/30b07acd-f150-471d-9c18-2e6983d54ae8)
 
-Then Open Connector Page and configure details acquired from ***pulsedive.com*** as next two screenshot shows.
+***Step 2***. Then Open Connector Page and configure details acquired from ***pulsedive.com*** as next two screenshot shows.
 
 ![Pulsedive Account](https://github.com/user-attachments/assets/ae2f36b9-805a-4fdc-9e07-77dce79feafd)
 
+***Step 3***. Fill details as below from pulsedive.com account details & API and click ADD.
 
 ![Threat Intel - Taxii Sentinel Setup](https://github.com/user-attachments/assets/01321b06-3189-4e2d-b4ce-22c607f75fcb)
 
+***Step 4***. Go to MS Sentinel Logs > Tables (microsoft Sentinel>ThreatIntelIndicators table) and click RUN
+
+***Step 5***. You will now witness that, Log Analytics showing Malicious-Activity ThreatIntel ingested into sentinel by pulsedive.com from domain name com.hugfu.top
 
 
 
