@@ -70,4 +70,10 @@ Once ***Auditlogs*** ingested into Sentinel, click ***Logs*** then Table, Under 
 * **7 Types of analytic rules:**
  1. ***Scheduled*** > Continuously run in defined timeframe, alert is fired if a condition is met. Below screenshot showing how to create a ***Scheduled Rule*** in Sentinel
 
+![image](https://github.com/user-attachments/assets/03b1b742-f9e0-42bd-ac41-614d0abc6b86)
+
+Below is final configuration of ***Scheduled rule*** created and enabled to search simple ***KQL*** Query for Add user operation in ***AuditLogs***
+
+![Schedulled Rule Details](https://github.com/user-attachments/assets/4595c8b2-dff3-4362-a02c-7b4f0b8c086c)
+
 
