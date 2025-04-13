@@ -46,4 +46,28 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 
 ![image](https://github.com/user-attachments/assets/d917e07a-6ba6-4031-92c2-e8b77bd20dd2)
 
+***Step 6***. Ingesting Entra ID ***AuditLogs*** into Sentinel
+
+1. Go to MS Sentinel > Content Hub, Search for Azure Active Directory (newly named Microsoft Entra ID)
+
+![image](https://github.com/user-attachments/assets/cca0f61a-22aa-42c4-801f-fedb9d79e924)
+
+2. Then go to Data Connector > select MS Entra ID, click Open Connector Page and select just AuditLogs
+
+Once ***Auditlogs*** ingested into Sentinel, click ***Logs*** then Table, Under ***LogManagement*** select ***Auditlogs*** and click RUN as screenshot below showing timestamps and logs that have been generated.
+
+![image](https://github.com/user-attachments/assets/f29037ca-e6ea-46ae-878d-3bb90b607730)
+
+## **Azure Monitor Agent (AMA) and Data Collection Rules (DCR)**
+***Observability Monitory Logs*** > Ingest into Azure Monitor + Log Analytics
+***Data Collection Security Event Logs*** > Ingest into Sentinel Workspace.
+
+## **Analytic Rules**
+
+* Analytic rules are your SIEM Use-case defined via *KQL*
+* Sentinel comes with over 500 rules templates.
+* Limit of 512 rules per workspace
+* **7 Types of analytic rules:**
+ 1. ***Scheduled*** > Continuously run in defined timeframe, alert is fired if a condition is met. Below screenshot showing how to create a ***Scheduled Rule*** in Sentinel
+
 
