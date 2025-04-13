@@ -44,5 +44,6 @@ Setup a simple SIEM using Microsoft Sentinel platform. Utilise Content hub, Data
 
 ***Step 5***. You will now witness that, Log Analytics showing Malicious-Activity ThreatIntel ingested into sentinel by pulsedive.com from domain name com.hugfu.top
 
+![image](https://github.com/user-attachments/assets/d917e07a-6ba6-4031-92c2-e8b77bd20dd2)
 
 
