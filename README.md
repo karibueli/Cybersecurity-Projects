@@ -83,3 +83,20 @@ Below is another ***Scheduled Rule*** to pull ***SecurityEvent*** for new proces
 2. ***Near-Real-Time (NRT)*** > run continuously and shall provide "up-to-the-minute" threat detection, there is a limit of 50 NRT rules per workspace.
 
 ![image](https://github.com/user-attachments/assets/9505386d-c096-491b-bb5d-ee25aa9a1724)
+
+3. ***Fusion*** >advanced multistage attack detection feature including over 120 detections across multiple MS data sources. (EntraID Protection, Defender for Cloud etc) There can only be **One Fusion RULE**  
+
+![image](https://github.com/user-attachments/assets/d04f55f2-2326-4b00-88e8-da7ab0f37948)
+
+4. ***ML Behavior Analytics*** > monitors for unusual windows RDP and Linux SSH logons based on pre-defined scenarios (e.g. Unusual IP, Unusual Geo, New Users)
+    ***NOTE You will need to allow 7 days for MS Sentinel to learn what is usual behavior in your environment***
+
+![image](https://github.com/user-attachments/assets/0378a7d8-3064-40de-be44-5d7338b02906)
+
+ 5. ***Threat Intel*** > Generates an alert when a MS Defender Threat Intel indicator gets matches with your event logs
+ 
+ 6. ***Microsoft Security*** > These are created using Rule Templates as screenshot below showing various templates for various use-cases such as Entra ID Protection Alerts, Defender for Cloud etc.
+    
+![image](https://github.com/user-attachments/assets/e1331c07-f472-4e90-b72c-ede1fea758c0)
+
+ 7. ***Anomaly***
